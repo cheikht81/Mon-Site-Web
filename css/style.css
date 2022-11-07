@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* font-family: 'Roboto', sans-serif; */
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+.container-fluid {
+	padding: 0px;
+}
+/*.separator {
+	height: 3px;
+	width: 5%;
+	border: none;
+	box-shadow: none;
+	background-color: #3498DB;
+}*/
+
+/* header */
+.header {
+	background-color: #3498DB;
+	height: 70px;
+	line-height: 70px;
+}
+.logo {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	float: left;
+}
+.menu {
+	float: right;
+
+}
+.menu a {
+	color: #ffffff;
+	margin-right: 20px;
+}
+.menu a:hover{
+	color: #2C3E50;
+}
+/* banniere */
+.banner {
+	width: 100%;
+	max-width: 100%;
+}
+.ban{
+	width: 100%;
+	max-width: 100%;
+	position: relative;
+}
+.ban img {
+	width: 100%;
+	max-width: 100%;
+}
+.inner-banner {
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+}
+.inner-banner h1 {
+	color: #ffffff;
+	text-shadow: 1px 1px 20px #000000;
+}
+.inner-banner .btn-custom {
+	background-color: #3498DB;
+	color: #ffffff;
+}
+.inner-banner .btn-custom:hover {
+	background-color: #2C3E50;
+}
+/* about */
+#about {
+	text-align: center;
+	padding-top: 10%;
+}
+.about article{
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.about article h2 {
+	text-align: center;
+}
+/* portfolio */
+.portfolio {
+	background-color: #eeeeee;
+	height: 800px;
+}
+#portfolio {
+	text-align: center;
+	padding-top: 10px;
+}
+.portfolio .item-folio {
+	height: 150px;
+	background-color: #3498DB;
+	display: inline-block;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+/* contact */
+.footer {
+	background-color:#2C3E50;	
+	height: 600px;
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+.footer p {
+	color: #ffffff;
+	text-align: center;
+	padding-top: 5%;
+}
+#contact {
+	color: #ffffff;
+	text-align: center;
+}
+.contact-form{
+	margin-top:15px;
+	border: none;
+	padding: 0px;
+}
+.contact-form .textarea{ 
+	height:200px; resize:vertical;
+}
+.form-control{ 
+	box-shadow:none; border-color:#eee; height:49px;
+}
+.form-control:focus{ 
+	box-shadow:none; border-color:#00b09c;
+}
+.form-control-feedback{ 
+	line-height:50px;
+}
+.main-btn{ 
+	background-color: #3498DB;
+	color: #ffffff;
+}
+.main-btn:hover{ 
+	background-color: #2C3E50;
+}
+.form-control-feedback {
+	line-height: 50px;
+	top: 0px;
+}
